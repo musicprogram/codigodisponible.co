@@ -1,0 +1,122 @@
+#1b76ff azul oscuro
+#84b5ff zul claro
+
+http-server -p 8000      /* node
+
+ruby -run -ehttpd . -p8000
+
+
+passwrod hosting00
+OXF(XyIkF&VSgoPwEOgM
+
+why ,how and what
+
+Fabricamos aplicaciones increíbles, soluciones versatiles. 
+
+Fabricamos aplicaciones sofisticadas, bien diseñadas, sencillas, claras, rápidas, efectivas, confiables y oportunas, flexibles y seguras. 
+
+"innovando el mercado, pensando diferente. Mas humanos, mas concientes, mas familiares, mas amorosos, mas cerca, contigo.  Software util. "CAMBIANDO EL FUTURO" , creando futuro. Tu mejor decision. Cambiando ideas. Mas que. Mas de ti. Mas de vos.  El futuro es brillante, el futuro es innovacion. felicidad. diviertete. no es un sueño, es real.  en tu camino. con vos. contigo. acompañandote. eso es todo. lo realmente importante. construimos innovacion. compartiendo. en contacto. saca lo mejor - piensa - escucha - en contacto - hacemos innovacion - en cualquier momento, en cualquier lugar - tu dia - comparte momentos - la mejor manera. observando - tiempo - innovacion, cualquier hora del dia - Rapido y bueno para ti - para Ti - todo lo que necesitas -  publicidad y aplicaciones. Dejando huella - haciendo historia - la herramienta de siempre - the forever  tool. 
+
+
+
+
+
+<li class="active"><a id="juanhenao" class="waves-effect waves-light white-text text-darken-1"><i class="material-icons blue-text text-darken-1">thumb_up</i><p class="letter_tra">Sobre Mi</p></a></li>  
+
+
+
+
+
+
+
+<div id="formulario_con">
+  <h5 class="header center teal-text teal-darken-2">Contáctenos</h5>
+  <div class="card horizontal">
+    <div class="card-stacked hoverable">
+      <div class="card-content">
+        <form id="contact-form" action="" method="post">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label> 
+
+          <input type="text" name="Nombre" placeholder="Nombre" required class="clean"> 
+          <input type="email" name="Email" placeholder="Email" required class="clean">
+          <textarea name="Message" cols="30" rows="6" placeholder="Mensaje" required class="materialize-textarea clean"></textarea>
+          <!-- CONFIG -->
+          <input class="is-hidden" type="text" name="_gotcha" style="display: none;">
+          <input type="hidden" name="_subject" value="Subject">
+          <input type="hidden" name="_cc" value="email@cc.com">
+          <!-- /CONFIG -->
+          <input class="btn waves-effect waves-light submit orange darken-3" type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+
+
+
+
+
+
+
+    var $contactForm = $('#contact-form');
+    $contactForm.submit(function(e) {
+      e.preventDefault();
+      $.ajax({
+        url: '//formspree.io/jahenao17@misena.edu.co',
+        method: 'POST',
+        data: $(this).serialize(),
+        dataType: 'json',
+        beforeSend: function() {
+          $contactForm.append('<div class="progress"><div class="indeterminate"></div></div>');
+        },
+        success: function(data) {
+          $contactForm.find('.alert--loading').hide();
+          $contactForm.append('<div class="card green">Mensaje Enviado!</div>');
+
+          $('#formulario_con').html('<div class="container"><div class="card horizontal"><div class="card-image ima_sent"></div><div class="card-stacked"><div class="card-content"><blockquote><p class="flow-text">El mensaje ha sido enviado, nos comunicaremos muy pronto</p> </blockquote></div></div></div></div>')
+
+        },
+        error: function(err) {
+          $contactForm.find('.alert--loading').hide();
+          $contactForm.append('<div class="card red">Ha ocurrido un error al enviar el mensaje...</div>');
+        }
+      });
+    });
+
+
+
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="blue darken-1 margen_di">
+
+  , con diferentes grados de dificultad y juegos para un aprendizaje mas eficaz.
+                  
+              App desarrollada en Ruby on Rails, Jquery, Postgresql * Diseño total de la marca en la web * Elaboración de campañas en video, edición, diseño y musicalización <br>                  
+              </div>
+
+
+            <b> Desarrollo hecho desde la planeación hasta su ejecución en producción <br> <small>Tiempo de elboración 12 meses</small> </b> 

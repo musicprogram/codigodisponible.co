@@ -1,0 +1,571 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.centrar_hv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+ }
+ 
+.img_top{
+  width: 100%;
+  height: 100%;
+
+}
+
+.transparente_dark{
+  background-color: rgba(28, 29, 23, 0.7);
+}
+
+.galerias:hover{
+  background-color: #84b5ff;
+}
+
+
+
+.img-pe{
+  width: 80px;
+  height: 80px;
+}
+
+
+video::-webkit-media-controls {
+  display: none;
+}
+
+
+/*
+video::-webkit-media-controls-play-button {
+
+}
+video::-webkit-media-controls-volume-slider {
+
+}
+video::-webkit-media-controls-mute-button {
+
+}
+video::-webkit-media-controls-timeline {
+}
+video::-webkit-media-controls-current-time-display{}
+*/
+
+
+.cent{
+  display:block;
+  margin:auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  
+
+}
+
+.juan_dec{
+  width: 80px;
+  height: 120px;
+}
+
+.padd{
+  padding: 1em 1em 1em 1em;
+}
+
+.margen{
+  padding: 1em 1em 1em 1em;
+  border-radius: 8px;
+}
+.margen_di{
+  padding: 1em 1em 1em 1em;
+}
+span.card-x{
+  padding:2em 2em 2em 2em;
+}
+
+
+
+body {
+
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #eceff1;
+  background-position: center; 
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.transparencia{
+  background-color: rgba(37, 48, 50, 0.6);
+}
+
+
+.transparencia_w{
+  background-color: rgba(0, 0, 0, 0.8);  
+}
+
+#img_profile{
+  padding-top: 0.5em;
+}
+
+#centro{
+  animation-delay:0.5s;
+}
+
+#habilidades{
+  animation-delay:0.5s;
+}
+
+
+
+.arriba{
+   margin: -0.9rem 0 0 0;
+}
+
+.habilidades{
+  padding: 2em 0em 2em 0em;
+}
+
+
+.descripcion:first-letter {
+  font-size: 200%;
+  color: #1E88E5; font-weight: bold;
+}
+
+.prim_letra:first-letter {
+  font-size: 200%;
+  color: white; font-weight: bold;
+}
+
+.transparentBG {
+  background-color: rgba(0,0,0,0);
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.bajar{
+  padding-top: 1em;
+}
+
+.bajar_mas{
+  padding-top: 2em;
+}
+
+.bajar_log{
+  padding-top: 3.5em;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+}
+
+.card .card-height-indicator {
+    margin-top: 100%;
+}
+
+.card.row-space .header {
+    padding: 15px 20px 0;
+}
+
+.card .title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.card .card-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+}
+
+.card .card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.card .card-image .card-title {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.card .category:not([class*="text-"]) {
+    color: #999999;
+}
+
+.card .card-content {
+    padding: 15px 20px;
+}
+
+.card .card-content .category {
+    margin-bottom: 0;
+}
+
+.card .card-header {
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: -20px 15px 0;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: #999999;
+}
+
+.card .card-header .title {
+    color: #FFFFFF;
+}
+
+.card .card-header .category {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.62);
+}
+
+.card .card-header.card-chart {
+    padding: 0;
+    min-height: 160px;
+}
+
+.card .card-header.card-chart+.content h4 {
+    margin-top: 0;
+}
+
+.card .card-header .ct-label {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card .card-header .ct-grid {
+    stroke: rgba(255, 255, 255, 0.2);
+}
+
+.card .card-header .ct-series-a .ct-point,
+.card .card-header .ct-series-a .ct-line,
+.card .card-header .ct-series-a .ct-bar,
+.card .card-header .ct-series-a .ct-slice-donut {
+    stroke: rgba(255, 255, 255, 0.8);
+}
+
+.card .card-header .ct-series-a .ct-slice-pie,
+.card .card-header .ct-series-a .ct-area {
+    fill: rgba(255, 255, 255, 0.4);
+}
+
+.card .chart-title {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.card .chart-title h3 {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.card .chart-title h6 {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.card .card-footer {
+    margin: 0 20px 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eeeeee;
+}
+
+.card .card-footer .content {
+    display: block;
+}
+
+.card .card-footer div {
+    display: inline-block;
+}
+
+.card .card-footer .author {
+    color: #999999;
+}
+
+.card .card-footer .stats {
+    line-height: 22px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.card .card-footer .stats .material-icons {
+    position: relative;
+    top: 4px;
+    font-size: 16px;
+}
+
+.card .card-footer h6 {
+    color: #999999;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .category .material-icons {
+    position: relative;
+    top: 6px;
+    line-height: 0;
+}
+
+.card .category-social .fa {
+    font-size: 24px;
+    position: relative;
+    margin-top: -4px;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.card .author .avatar {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card .author a {
+    color: #3C4858;
+    text-decoration: none;
+}
+
+.card .author a .ripple-container {
+    display: none;
+}
+
+.card .table {
+    margin-bottom: 0;
+}
+
+.card .table tr:first-child td {
+    border-top: none;
+}
+
+.card [data-background-color="purple"] {
+    background: linear-gradient(60deg, #ab47bc, #8e24aa);
+    box-shadow: 0 12px 20px -10px rgba(156, 39, 176, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2);
+}
+
+.card [data-background-color="blue"] {
+    background: linear-gradient(60deg, #26c6da, #00acc1);
+    box-shadow: 0 12px 20px -10px rgba(0, 188, 212, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0, 188, 212, 0.2);
+}
+
+.card [data-background-color="green"] {
+    background: linear-gradient(60deg, #66bb6a, #43a047);
+    box-shadow: 0 12px 20px -10px rgba(76, 175, 80, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(76, 175, 80, 0.2);
+}
+
+.card [data-background-color="orange"] {
+    background: linear-gradient(60deg, #ffa726, #fb8c00);
+    box-shadow: 0 12px 20px -10px rgba(255, 152, 0, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(255, 152, 0, 0.2);
+}
+
+.card [data-background-color="red"] {
+    background: linear-gradient(60deg, #ef5350, #e53935);
+    box-shadow: 0 12px 20px -10px rgba(244, 67, 54, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(244, 67, 54, 0.2);
+}
+
+.card [data-background-color] {
+    color: #FFFFFF;
+}
+
+.card [data-background-color] a {
+    color: #FFFFFF;
+}
+
+.card-stats .title {
+    margin: 0;
+}
+
+.card-stats .card-header {
+    float: left;
+    text-align: center;
+}
+
+.card-stats .card-header i {
+    font-size: 36px;
+    line-height: 56px;
+    width: 56px;
+    height: 56px;
+}
+
+.card-stats .card-content {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.card-nav-tabs .header-raised {
+    margin-top: -30px;
+}
+
+.card-nav-tabs .nav-tabs {
+    background: transparent;
+    padding: 0;
+}
+
+.card-nav-tabs .nav-tabs-title {
+    float: left;
+    padding: 10px 10px 10px 0;
+    line-height: 24px;
+}
+
+.card-plain {
+    background: transparent;
+    box-shadow: none;
+}
+
+.card-plain .card-header {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-plain .content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-plain .card-image {
+    margin: 0;
+    border-radius: 3px;
+}
+
+.card-plain .card-image img {
+    border-radius: 3px;
+}
+
+.iframe-container {
+    margin: 0 -20px 0;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    height: 500px;
+    border: 0;
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card-profile,
+.card-testimonial {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.card-profile .btn-just-icon.btn-raised,
+.card-testimonial .btn-just-icon.btn-raised {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.card-profile .card-avatar,
+.card-testimonial .card-avatar {
+    max-width: 130px;
+    max-height: 130px;
+    margin: -50px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card-profile .card-avatar+.content,
+.card-testimonial .card-avatar+.content {
+    margin-top: 15px;
+}
+
+.card-profile.card-plain .card-avatar,
+.card-testimonial.card-plain .card-avatar {
+    margin-top: 0;
+}
+
+
+
+
+.letraazuloscuro{
+  color: #1b76ff;
+}
+
