@@ -82,6 +82,11 @@ video::-webkit-media-controls-current-time-display{}
 .margen_di{
   padding: 1em 1em 1em 1em;
 }
+
+.margen_pes{
+  padding: 0.5em 1em 0.5em 1em;
+}
+
 span.card-x{
   padding:2em 2em 2em 2em;
 }
@@ -112,6 +117,15 @@ body {
   height: auto;
 }
 
+
+
+.transpa_azul{
+  background-color: rgba(4, 49, 142, 0.4);
+}
+
+.transpa_blanca{
+  background-color: rgba(228, 241, 240, 0.7);
+}
 
 
 .transparencia{

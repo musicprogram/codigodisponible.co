@@ -14,7 +14,7 @@
   </div>
 </div>
 
-<div class="container-fluid" id="second">
+<div class="container" id="second">
   <div class="section">
 
 
@@ -48,7 +48,7 @@
 
 
  
-  <div class=" transparencia z-depth-1">
+  <div class="blue z-depth-1">
 
       <div class="row">
         <div class="col s12 m1">
@@ -59,7 +59,7 @@
       <div class="col s12 m11">
         
           <div class="movil">
-          <p class="white-text light prim_letra center-align">
+          <p class="white-text light prim_letra center-align flow-text">
             Soy autodidacta por naturaleza y pongo especial atención en detalles.
           </p>
           </div>
@@ -77,7 +77,7 @@
 
 
 
-<div class="grey lighten-3">
+<div class="transpa_blanca">
   
   
 <div class="container padd">
@@ -122,25 +122,37 @@
 
 
 <br>
-    <div class="container transparencia ">
+    <div class="blue hide-on-small-only">
 
-      <div class="row center">
-        <p class="header col s12 white-text text-darken-1 light">
-          Curso especial en fundamentos de programación.
-          Curso virtual en english dot works beginner.
-          Curso especial en emprendimiento y empresarismo.
-          Capacitación complementaria virtual en aprendiz digital.
-          Capacitación complementaria virtual en adobe photoshop.
-          Capacitación complementaria virtual en adobe flash profesional.
-          Ponente XIV Feria Tecnológica Exposición de Proyectos, Simposio Mantenimiento Electrónico Aplicado y Congreso Automatización de la Manufactura.
-Asistentes Feria Tecnológica Exposición de Proyectos de Investigación Aplicada, Desarrollo Tecnológico e Innovación del Centro de Automatización Industrial.
+<div class="container margen_pes ">
+       <dl class="white-text">
+      
+      <dt> <b>Cursos</b> </dt>
+      <dd>
+   
+          Curso especial en fundamentos de programación 40 horas.
+          Curso virtual en english dot works beginner 40 horas.
+          Curso especial en emprendimiento y empresarismo 40 horas.
+          Capacitación complementaria virtual en aprendiz digital 40 horas.
+          Capacitación complementaria virtual en adobe photoshop 40 horas.
+          Capacitación complementaria virtual en adobe flash profesional 40 horas.
+      </dd>
+          <br>
+          <dt><b>Eventos</b></dt>
+          <dd>
+            Ponente XIV Feria Tecnológica Exposición de Proyectos, Simposio Mantenimiento Electrónico Aplicado y Congreso Automatización de la Manufactura.
+            Asistentes Feria Tecnológica Exposición de Proyectos de Investigación Aplicada, Desarrollo Tecnológico e Innovación del Centro de Automatización Industrial.
+          </dd>
+   
+     
 
-        </p>
-      </div>
+
+
+    </dl>
 
 
 
-
+</div>
 
 
 

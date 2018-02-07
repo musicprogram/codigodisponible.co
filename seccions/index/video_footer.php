@@ -19,13 +19,6 @@
  
 
 
-<div class="footer-copyright blue darken-1">
-    <div class="container center-align">
-    
-     <a class="white-text"> <b>códigodisponible.tk</b> </a>
-    </div>
-  </div>
-
 
 <img src="https://image.ibb.co/eM6b5c/movil_img.jpg" alt="LOGO" border="0" class="responsive-img bajar_log">
 
@@ -41,6 +34,32 @@ $(document).ready(function() {
    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
      $('#cell').html('<div id="wistia_51h5qwe4hz" wmode=transparent></div>')
 
+        // run test on initial page load
+      checkSize();
+      // run test on resize of the window
+      $(window).resize(checkSize);
+
+      wistiaEmbed = Wistia.embed("51h5qwe4hz", {
+        
+        qualityMax: parseInt(calidad),
+        videoFoam: true,
+
+
+      });
+      
+      wistiaEmbed.play();
+
+      function setPlaySpeed(speed) {
+        wistiaEmbed.playbackRate(speed);
+        video.pause(speed)
+
+      }
+
+      $('#principal').click(function() { // play desde el id index
+            wistiaEmbed.play();
+      });
+
+      
 
     
 
@@ -53,32 +72,7 @@ $(document).ready(function() {
 
 
 
- // run test on initial page load
-    checkSize();
-    // run test on resize of the window
-    $(window).resize(checkSize);
 
-    wistiaEmbed = Wistia.embed("51h5qwe4hz", {
-      
-      qualityMax: parseInt(calidad),
-      videoFoam: true,
-
-
-    });
-    
-    wistiaEmbed.play();
-
-    function setPlaySpeed(speed) {
-      wistiaEmbed.playbackRate(speed);
-      video.pause(speed)
-
-    }
-
-    $('#principal').click(function() { // play desde el id index
-          wistiaEmbed.play();
-    });
-
-    
 
     
 });

@@ -8,3 +8,12 @@
 blockquote {
   border-left: 5px solid #1E88E5;
 }
+
+
+.logo_pe_marcas{
+  width: 45px;
+  height: 45px;
+}
+.margen_logos{
+  margin: 1em 0 1em 0;
+}

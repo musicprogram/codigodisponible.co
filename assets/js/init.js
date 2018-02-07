@@ -1,6 +1,6 @@
 
 $( document ).ready(function() {
-
+    
     /* pages */
         
     $('#video_content').load('seccions/index/video_footer.php').slideDown(560);
