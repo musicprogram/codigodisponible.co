@@ -106,8 +106,9 @@
       </dd>
     </dl>
 </blockquote>
-<div class="progress  blue darken-1 hoverable">
-    <div class="determinate" style="width: 100%"></div>
+
+<div class="progress  hoverable">
+    <div class="determinate blue darken-1" style="width: 100%"></div>
   </div>
 
 

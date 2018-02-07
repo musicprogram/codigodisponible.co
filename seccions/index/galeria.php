@@ -21,7 +21,7 @@
    <div class="row">
 
     <div class="col s12 m6">
-      <div class="card" style="overflow: visible; background-color: rgba(37, 48, 50, 0.6);" >
+      <div class="card " style="overflow: visible; background-color: rgba(37, 48, 50, 0.6);" >
 
            <div class="card-content white-text center">
               <div class="blue darken-2 margen">
@@ -59,13 +59,14 @@
       </div>
     </div>
         <div class="col s12 m6">
-      <div class="card margen" style="overflow: visible; background-color: rgba(37, 48, 50, 0.6);">
 
-       <div class="card-content white-text center">
+  <div class="card " style="overflow: visible; background-color: rgba(37, 48, 50, 0.6);" >
+
+           <div class="card-content white-text center">
               <div class="blue darken-2 margen">
                 <span class="card-title">PGP CONFECCIÓN</span>
                  <p class="flow-text">
-                    Plataforma para la gestión de producción en la confección, para el manejo de las órdenes de producción, fichas técnicas, entre otros.                 
+                     Plataforma para la gestión de producción en la confección, para el manejo de las órdenes de producción, fichas técnicas, entre otros.
                  </p>
                 <br>
     
@@ -76,37 +77,31 @@
 
 
 
-
-        <div class="card-image waves-effect waves-block waves-light activator" onclick="pgp()">
-          <img src="https://image.ibb.co/g1iJwH/pgp_card.jpg" >
+        <div class="card-image waves-effect waves-block waves-light activator tooltipped" onclick="pgp()" data-position="top" data-delay="50" data-tooltip="Click para ver mas">
+          <img class="activator" src="https://image.ibb.co/g1iJwH/pgp_card.jpg">
         </div>
-
+     <br>
         <div class="card-reveal blue darken-1 white-text " style="display: none; transform: translateY(0px);">
           <span class="card-title blue-text text-darken-4"><i class="white-text material-icons right">close</i></span>
           
-
-          <h1 class="flow-text center ani"><b>PGP-CONFECCIÓN</b></h1>
-
-          <p class="white-text center">
-            PLATAFORMA PARA LA GESTIÓN DE LA PRODUCCIÓN EN LA CONFECCIÓN              
-          </p>
-
-
-
-
-
 
           
           <br>
           <div class="pgp"></div>
 
 
-
         </div>
-
+        
+      
 
 
       </div>
+
+
+
+
+
+
     </div>
 
   </div>
