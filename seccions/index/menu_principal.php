@@ -139,7 +139,7 @@ $('.dropdown-button').dropdown({
  $('#drop_juan').click(function(){
   $('#prof').html('<h6 class="category text-gray">Desarrollador y Diseñador de software</h6> <h4 class="card-title">Juan Henao</h4> <p class="card-content light"> Apasionado por la tecnología y el conocimiento de nuevas herramientas <br> Celular:+(57) 3023929614 <div class="redes_so"> <i class="fa fa-twitter fa-2x "></i> <i class="fa fa-linkedin fa-2x "></i> <i class="fa fa-github fa-2x " ></i> </div>  </p>');
 
-  $('#img_profile').html('<div class="card-avatar blue-grey darken-2"> <a> <img src="https://image.ibb.co/jKn8MH/juan.png" id="profile"> </a> </div>'); 
+  $('#img_profile').html('<div class="card-avatar blue-grey darken-2"> <a target="_blank" href="https://s3.us-east-2.amazonaws.com/codigodigital.tk/hojadevida.pdf"> <img src="https://image.ibb.co/jKn8MH/juan.png" id="profile"> </a> </div>'); 
 
   $('.card').addClass('card-profile');
 

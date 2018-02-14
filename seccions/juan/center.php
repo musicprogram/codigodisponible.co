@@ -64,7 +64,7 @@
       <br><br>
       <p class="flow-text center  animar_tit"><b>Lenguajes y herramientas</b></p>
       <div class="row center hide-on-small-only">
-        <h5 class="header col s12  light animar_subt">Ruby, Ruby on Rails, Rubygems, ambientes Unix, Postgresql, sqlite3, git, github, bootstrap, jQuery ,  javascript ,Html5, Css, Sass, Sublime Text plugins, Photoshop, After Effects, Unity, Cubase 5 edición de sonido.</h5>
+        <h5 class="light animar_subt">Ruby, Ruby on Rails, Postgresql, sqlite3, git, bootstrap, jQuery ,  javascript ,Html5, Css,Photoshop, After Effects</h5>
       </div>
 
       <div class="row margen">

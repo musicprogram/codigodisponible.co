@@ -13,6 +13,64 @@
 
 
 
+
+
+
+<div class="container-fluid bajar">
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="card blue darken-1 hoverable">
+        <div class="card-image animated bounceIn">
+          <img src="https://image.ibb.co/gWfbix/eduvial_card.jpg">
+
+        </div>
+        <div class="card-content">
+          <p class="white-text light center">    
+            Actualmente, soy un creativo independiente con experiencia en desarrollo con Ruby on Rails y diseño digital con Javascript, Css, Photoshop, AfterEffects entre otras herramientas que manejo. Soy un aprendiz constante, siempre estoy probando nuevas herramientas y experimentando con nuevas técnicas.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card blue darken-1 hoverable">
+        <div class="card-image animated bounceIn">
+          <img src="https://image.ibb.co/eDChww/1.jpg">
+
+        </div>
+        <div class="card-content">
+          <p class="white-text light center">    
+            Actualmente, soy un creativo independiente con experiencia en desarrollo con Ruby on Rails y diseño digital con Javascript, Css, Photoshop, AfterEffects entre otras herramientas que manejo. Soy un aprendiz constante, siempre estoy probando nuevas herramientas y experimentando con nuevas técnicas.
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col s12 m3">
+      <div class="card blue darken-1 hoverable">
+        <div class="card-image animated bounceIn">
+          <img src="https://image.ibb.co/g1iJwH/pgp_card.jpg">
+
+        </div>
+        <div class="card-content">
+          <p class="white-text light center">    
+            Actualmente, soy un creativo independiente con experiencia en desarrollo con Ruby on Rails y diseño digital con Javascript, Css, Photoshop, AfterEffects entre otras herramientas que manejo. Soy un aprendiz constante, siempre estoy probando nuevas herramientas y experimentando con nuevas técnicas.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 <div class="">
 
   <div class="bajar_mas">

@@ -37,7 +37,9 @@
   <div id="content"></div>
   
   <!--  Scripts-->
-  <?php include_once 'seccions/juan/footer.php'?>
+  <div class="movil">
+    <?php include_once 'seccions/juan/footer.php'?>
+  </div>
 
 <script src="assets/js/init.js"></script>
 
